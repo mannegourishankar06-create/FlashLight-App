@@ -1,0 +1,19 @@
+name: flashlight_app
+description: A simple flashlight app built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  torch_light: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
